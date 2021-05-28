@@ -7,6 +7,5 @@ class Car:
     def accelaration (self,acceleration):
         self.accelaration=acceleration
         return f" my {self.make}, {self.model},{self.color} car has an acceleration of {self.acceleratio }"
-    def hoot(self,hoot):
-        self.hoot=hoot
-        return f"all cars {self.hoot} when started"
+    def hoot(self):
+        return "All cars hoot when started"
